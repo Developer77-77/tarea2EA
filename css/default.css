@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #f9f9f7 url('../img/a1.gif') repeat-x;
+    font-size: 10px;
+    font-family: cursive;
+    color: #000000;
+    line-height: 20px;
+    
+}
+a{
+    color: #00ccff;
+    text-decoration: underline;
+    font-size: 10px;
+}
+p{
+    margin-bottom: 2px;
+    text-align: justify;
+}
+
+#outer{
+    position: relative;
+    width: 60% ;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: rgb(220, 233, 233);
+    border: initial;
+    overflow: overlay;   
+}
+header #logo span {
+    font-weight: bold;
+    font-size: 15px;
+}
+header #logo h1 {
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+header #logo{
+    float: left;
+    background: #a1d8c6 url('../img/a8.gif') repeat-x;
+    width: 33%;
+    height: 170px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 0px;
+}
+#principalcontent{
+    width: 100%;
+    background-color:#FFF;
+}
+#primarycontent{
+    float : left;
+    width: 74%;
+    margin-right: 3px;
+}
+#primarycontent h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    background: url('../img/a22.gif') bottom repeat-x;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 20px;
+}
+#primarycontent .post{
+    margin-bottom: 30px;
+}
+#primarycontent .post .footer{
+ background: url('../img/a33.gif') bottom repeat-x;   
+ height: 34px  ;
+ margin-top: 5px;
+ text-align: right;
+}
+footer{
+    border-top: double;
+    clear: both;
+    height:66px;
+    text-align: center;
+    color: #a8a88d;
+    padding-top: 15px;
+}

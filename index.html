@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Diseño de Aplicaciones Web Home</title>
+    <meta name="description" content="Curso de diseño de Aplicaciones Web"/>
+    <meta name="keywords" content="HTML5, CSS3"/>
+    <meta name="author" content="Eimy Avila Alfaro"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style> </style>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body>
+    <div id="outer" >
+        <header>
+            <div id="logo">
+                <img src="img/R.jpg" width="150" height="140"/>
+                <h1><span></span>Curriculum Vitae</h1>
+            </div>
+            
+            
+            <h1>Informacion Personal</h1>  
+            <br>          
+            <p>nombre: Eimy Avila</p>
+            <p>Direccion: 200 oeste de la plaza San Pedro de Santa Barbara</p>
+            <p><a href="https://goo.gl/maps/t7FJVaJGp5mDCuDX6">Direccion en google maps</a></p>
+            <p>Telefono: 888 888 888</p>
+            <p>Email: eimy5000@gmail.com</p>
+            <p>Fecha de Nacimiento: 29/05/1996</p>            
+        </header>
+        <nav>
+            <div id="container">
+                <a href="index.html" class="Principal">Home</a>
+            </div>
+        </nav>
+        <main id="principalcontent">
+            <div id="primarycontent">
+                <article class="post">
+                    <div class="header">
+                        <h3>Estudios y cursos</h3>
+                    </div>
+                    <div class="Content">
+                        <ul>
+                            <li>2009 - 2014: Bachillerato en educacion media </li>
+                            <li>2015 - 2017: Ingles Ejecutivo</li>
+                            <li>2018 - actual: Ingenieria de software</li>
+                        </ul> 
+                    </div>
+                </article> 
+                <article class="post">
+                    <div class="header">
+                        <h3>Experiencia laboral</h3>
+                    </div>
+                    <div class="Content">
+                    <table border="1">
+                            <thead>
+                              <tr>
+                                  <th>Año</th>
+                                  <th>Compañia</th>
+                                  <th>Cargo que se desempeñó</th>             
+                              </tr>
+                          </thead>
+                        <tbody>
+                            <tr>
+                                <td>2017 - 2018</td>
+                                <td>UCB</td>
+                                <td>Back office</td>            
+                            </tr>
+                    
+                            <tr>
+                              <td>2018 - 2019</td>
+                              <td>Hewlett Packard</td>
+                              <td>Back office</td>  
+                            </tr>
+                    
+                            <tr>
+                              <td>2019 - 2021</td>
+                              <td>IBM</td>
+                              <td>Soporte Técnico</td>  
+                            </tr>
+                    
+                            <tr>
+                              <td>2021 - actual</td>
+                              <td>CITI BANK</td>
+                              <td>Infraestructura</td>  
+                            </tr>               
+                        </tbody>
+                    </table>
+                    </div>
+                </article>  
+                <article class="post">
+                    <div class="header">
+                        <h3>Hobbies y aficiones</h3>
+                    </div>
+                    <div class="Content">
+                        <ol>
+                            <li>Pasar tiempo con mis mascotas</li>
+                            <li>Escuchar música </li>
+                            <li>Ver series</li>        
+                        </ol>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <credit>&copy; Derechos Reservados ISW-DAW UTN II-2022</credit><br>
+            <div id="date"></div>
+            <script>document.getElementById("date").innerHTML=new Date().toDateString()</script>
+        </footer>
+    </div>
+</body>
+</html>
